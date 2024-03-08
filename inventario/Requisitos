@@ -1,0 +1,17 @@
+### SCRIPT PARA CONTROL DE INVENTARIO
+
+## Este script es la base del sistema de control para la tienda. Debe actualizar la base de datos de inventario, y conectarse con el sistema front-end de punto de venta para realizar las funciones de control referentes a las ventas y compras de articulos y mercancia
+
+### LENGUAJE: Python 3
+
+###REQUISITOS:
+
+- Python 3 installed
+- Database management system (e.g., MySQL, PostgreSQL)
+- Python libraries: 
+	- Pandas?
+	- sqlalchemy
+	- fastAPI
+	- 
+- Front-end point of sale system (e.g., HTML, CSS, JavaScript)
+- Internet connection for real-time updates and synchronization
