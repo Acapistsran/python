@@ -31,6 +31,7 @@ async def delete_item(nombre: str):
 @router.put("/inventario/{nombre}")
 async def update_item(nombre: str, item_update: ItemUpdate):
     for item in items:
+        # dont give up, but dont use for loop to iterate on a list of items
         if item.nombre == nombre:
             item.descripcion = item_update.descripcion
             item.cantidad = item_update.cantidad
